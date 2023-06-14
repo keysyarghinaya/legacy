@@ -235,15 +235,41 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
+
+    <div class="col-6">
+                    <h2 style="margin-left:460px;">Categories</h2>
+                </div>
+                <div class="col">
+                    <div class="details">
+                        <img src="foto/sepatu.jpg" style="height:90px; width:80; border-radius:50px;">
+                        <h5 style="margin-top:5px;">Sepatu</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="details">
+                        <img src="foto/kaos.jpg" style="height:90px; width:80; border-radius:50px;">
+                        <h5 style="margin-top:5px;">Kaos</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="details">
+                        <img src="foto/celana.jpg" style="height:90px; width:80; border-radius:50px;">
+                        <h5 style="margin-top:5px;">Celana</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="details">
+                        <img src="foto/skateboard.jpg" style="height:90px; width:80; border-radius:50px;">
+                        <h5 style="margin-top:5px;">Skate</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
     <div class="container">
-        <h2 >RECOMMENDED FOR YOU!</h2>
+        <h2>RECOMMENDED FOR YOU!</h2>
     </div>
 
     <div class="mycards">

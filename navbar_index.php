@@ -54,7 +54,7 @@
             margin-top: 17px;
         }
 
-        .navigation>li {
+        .navigation>text {
             list-style-type: none;
             padding: 10px;
             margin: 0px 10px 0px 10px;
@@ -68,8 +68,9 @@
         }
 
         .navigation>li>a:hover {
-            color: cornsilk;
-            transition: all .3s ease-in-out
+            color: lightblue;
+            transition: all .3s ease-in-out;
+            transform: scale(0.90);
         }
 
         .text>button {
@@ -90,7 +91,7 @@
         }
 
         .text:hover {
-            color: cornsilk;
+            color: lightblue;
             transform: scale(0.90);
             transition: all .3s ease-in-out
         }
@@ -99,12 +100,13 @@
             width: 50px;
             height: 65px;
         }
-        .text{
+
+        .text {
             text-decoration: none;
             color: white;
             font-size: 16px;
-            margin-left:10px;
-            margin-right:10px;
+            margin-left: 10px;
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -143,9 +145,9 @@
 
 
         <ul class="navigation">
-        <li class="text"><button><a href="#.php"><svg style="font-size:24px" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-</svg></i></a>Account</button></li>
+            <li class="text"><button><a href="#.php"><svg style="font-size:24px" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                        </svg></i></a>Account</button></li>
 
             <li class="text"><button><a href="#.php"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a>Cart</button></li>
         </ul>
