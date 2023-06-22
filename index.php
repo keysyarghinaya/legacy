@@ -156,7 +156,7 @@
             width: 140px;
             height: 150px;
             max-width: 350px;
-            /* margin-left: 460px; */
+            margin-left:20px;
             margin-bottom: 20px;
             padding: 20px;
             background-color: #282E3E;
@@ -266,8 +266,8 @@
 }
 
 .green-button:hover {
-  background-color: #009900;
-  color: white;
+            background-color: #009900;
+            color: white;
             transform: scale(0.90);
             transition: all .3s ease-in-out
 }
@@ -296,8 +296,60 @@
             }
         }
 
-       
+        /* Gaya dasar untuk teks */
+    .hover-text {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s; /* Efek transisi ketika mengubah warna */
+        
+    }
 
+    /* Gaya ketika hover */
+    .hover-text:hover {
+        color: lightgreen;
+        /* Tambahkan gaya tambahan sesuai kebutuhan */
+    }
+
+    .column-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .column {
+      flex-basis: 30%;
+      padding-right: 20px;
+    }
+
+    .post {
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+
+    .post-image {
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 8px;
+    }
+
+    .post-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .post-date {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 10px;
+    }
+
+    .post-content {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+   
     </style>
 </head>
 
@@ -360,19 +412,16 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
         <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel" style="max-width: 470px;  margin-left:25px;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="foto/3.jpg" class="d-block w-100" alt="..." style="">
+                <img src="foto/model1.jpg" class="d-block w-100" alt="..." style="">
                 </div>
                 <div class="carousel-item">
-                    <img src="foto/model1.jpg" class="d-block w-100" alt="..." style="">
+                <img src="foto/model2.jpg" class="d-block w-100" alt="..." style="">
                 </div>
                 <div class="carousel-item">
-                    <img src="foto/model2.jpg" class="d-block w-100" alt="..." style="">
+                <img src="foto/model3.jpg" class="d-block w-100" alt="..." style="">
                 </div>
                 <div class="carousel-item">
-                    <img src="foto/model3.jpg" class="d-block w-100" alt="..." style="">
-                </div>
-                <div class="carousel-item">
-                    <img src="foto/model4.jpg" class="d-block w-100" alt="..." style="">
+                <img src="foto/model4.jpg" class="d-block w-100" alt="..." style="">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
@@ -393,50 +442,50 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
             <div class="" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 1rem;">
                 <div class="">
                     <div class="details">
-                        <img src="foto/sepatu.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Sepatu</h5>
+                        <img src="foto/baju3.png" style="height:80px; width:50; border-radius:50px;">
+                        <a class="hover-text" href="kategori">Shirt</a>
                     </div>
                 </div>
                 <div class="">
                     <div class="details">
-                        <img src="foto/kaos.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Kaos</h5>
+                    <img src="foto/celana1.png" style="height:80px; width:80; border-radius:50px;">
+                        <a class="hover-text" href="kategori">Pants</a>
                     </div>
                 </div>
                 <div class="">
                     <div class="details">
-                        <img src="foto/celana.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Celana</h5>
+                    <img src="foto/baju1.png" style="height:80px; width:70; border-radius:50px;">
+                        <a class="hover-text" href="kategori">Long Sleeve</a>
                     </div>
                 </div>
                 <div class="">
                     <div class="details">
-                        <img src="foto/celana.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Celana</h5>
+                    <img src="foto/hoodie.png" style="height:80px; width:80; border-radius:50px;">
+                        <a class="hover-text" href="kategori">hoodie</a>
                     </div>
                 </div>
                 <div class="">
                     <div class="details">
-                        <img src="foto/celana.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Celana</h5>
+                    <img src="foto/puppets.png" style="height:90px; width:80; border-radius:50px;">
+                        <a class="hover-text" href="kategori">All skateboard</a>
                     </div>
                 </div>
                 <div class="">
                     <div class="details">
-                        <img src="foto/celana.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Celana</h5>
+                  <img src="foto/vans.png" style="height:80px; width:70; border-radius:50px; padding-top: 20px;">
+                        <a class="hover-text" href="kategori">Shoes</a>
                     </div>
                 </div>
                 <div class="">
                     <div class="details">
-                        <img src="foto/celana.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Celana</h5>
+                        <img src="foto/topi1.png" style="height:80px; width:80; border-radius:50px;">
+                        <a class="hover-text" href="kategori">Hat</a>
                     </div>
                 </div>
                 <div class="">
                     <div class="details">
-                        <img src="foto/celana.jpg" style="height:90px; width:80; border-radius:50px;">
-                        <h5 style="margin-top:5px;">Celana</h5>
+                    <img src="foto/tas1.png" style="height:80px; width:80; border-radius:50px;">
+                        <a class="hover-text" href="kategori">Tote Bag</a>
                     </div>
                 </div>
             </div>
@@ -603,12 +652,46 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
             </div>
         </div>
     </div>
-    <script>
-        function addToCart(productName, price) {
-            // Kode untuk menambahkan produk ke keranjang
-            console.log("Produk " + productName + " dengan harga " + price + " telah ditambahkan ke keranjang.");
-        }
-    </script>
+    <br>
+    <hr style="height:5px;">
+    <center><h4>Blog Spot</h4></center>
+   <div class="column-wrapper">
+    <div class="column">
+      <div class="post">
+      <iframe src="foto/legacyyy.mp4" frameborder="0" allowfullscreen></iframe>
+        <h2 class="post-title">Our Product</h2>
+        <p class="post-date">March 21, 2023</p>
+        <div class="post-content">
+          <p>legacy.str Nothing Special is our newest campaign, its about our hate of the idea of Perfection, making us to overthink about everything we make and do nothing instead, so we choose to claim ourself 'nothing special' </p>
+          <p>inhope you guys accept us the way we are and we can continue making this city great, lets get together on this, love❤️.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="post">
+      <img class="post-image" src="foto/kis.jpg" alt="Blog Post 3">
+        <h2 class="post-title">Kejuraan nasional 2022</h2>
+        <p class="post-date">July 6, 2022</p>
+        <div class="post-content">
+          <p>GOOD JOB! Alhamdulilah selamat kepada Prayoga Siregar peraih medali perunggu🥉 best trick rail di event Nasional Fornas Vi 2022 Palembang</p>
+          <p>Salut!!  Just skate dont hate🔥</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="post">
+      <img class="post-image" src="foto/lomba.jpg" alt="Blog Post 2">
+        <h2 class="post-title">brangkat!</h2>
+        <p class="post-date">July 4, 2022</p>
+        <div class="post-content">
+          <p>Selamat bertanding Batam/Kepri Athletes di kejuaraan nasional sumatra,palembang 2022 cabang olahraga skateboard!</p>
+          <p>Goodluck Boys! Do your best!❤️</p>
+        </div>
+      </div>
+    </div>
+  </div>
     <br />
     <br />
     <br />
