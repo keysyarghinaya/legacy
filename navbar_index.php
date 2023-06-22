@@ -28,14 +28,14 @@
             font-size: 1.5em;
             padding: 15px;
             text-transform: capitalize;
-            margin-left: 105px;
+            margin-left: 115px;
         }
 
 
         .firstname {
             color: #66CDAA;
             font-weight: 700;
-            font-size: 30px;
+            font-size: 36px;
             cursor: default;
             margin-left: -125px;
         }
@@ -43,7 +43,7 @@
         .lastname {
             color: white;
             font-weight: 600;
-            font-size: 30px;
+            font-size: 36px;
             cursor: default;
         }
 
@@ -104,7 +104,7 @@
         .text {
             text-decoration: none;
             color: white;
-            font-size: 16px;
+            font-size: 20px;
             margin-left: 10px;
             margin-right: 10px;
         }
@@ -112,26 +112,25 @@
 </head>
 
 <body>
-    <nav class="navbar  navbar-expand-lg" style="background-color:#282E3E;">
+    <nav class="navbar sticky-top navbar-expand-lg" style="background-color:#282E3E;">
         <img src="foto/logo.png" style="height:90px;">
         <div class="brand">
             <div class="firstname">Legacy</div>
             <div class="lastname">SkateShop</div>
         </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
         <a class="text" href="#.php">
             Categories
         </a>
         <a class="text" href="#.php">
-            Deals
+            Recommended
         </a>
         <a class="text" href="#.php">
-            what's New
+            Contact Us
         </a>
-        <a class="text" href="#.php">
-            delivery
-        </a>
+        </div>
 
-        <div class="col-3 d-flex justify-content-center align-items-center">
+        <div class="col-4 d-flex justify-content align-items">
             <div class="input-group flex-nowrap col-6">
                 <input type="text" class="form-control rounded-start-pill" placeholder="Search Product" aria-label="Username" aria-describedby="addon-wrapping">
                 <button class="input-group-text rounded-end-pill" id="addon-wrapping">
@@ -141,16 +140,6 @@
                 </button>
             </div>
         </div>
-
-
-
-        <ul class="navigation">
-            <li class="text"><button><a href="#.php"><svg style="font-size:24px" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                        </svg></i></a>Account</button></li>
-
-            <li class="text"><button><a href="#.php"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a>Cart</button></li>
-        </ul>
     </nav>
 </body>
 

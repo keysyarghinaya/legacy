@@ -121,7 +121,7 @@
             text-align: center;
         }
 
-        /*responsive*/
+        /responsive/
         @media(max-width: 767px) {
             .footer-col {
                 width: 50%;
