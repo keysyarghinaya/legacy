@@ -239,10 +239,12 @@
         </P>
         <br>
         <div class="gmap_canvas">
-          <font size="5"><b>Visit Legacy Skate Shop📍</b></font>
+          <font size="5"><b>why should Legacy Skate Shop</b></font>
           <br>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.31756796184976!2d104.06059429719619!3d1.1014635438593972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d988d34c07d407%3A0x11b8e244ed210e97!2sLegacy%20Skateshop!5e0!3m2!1sid!2sid!4v1687442701755!5m2!1sid!2sid"
-             width="460" height="295" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br>
+          <p>legacy.str Nothing Special is our newest campaign, its about our hate of the idea of Perfection,</p>
+          <p>making us to overthink about everything we make and do nothing instead, so we choose to claim ourself 'nothing special' </p>
+          <p>inhope you guys accept us the way we are and we can continue making this city great, lets get together on this, love❤️.</p>
         </div>
       </div>
     </div>
