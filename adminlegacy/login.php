@@ -104,15 +104,6 @@
             opacity: 0.4;
         }
 
-        .forgot,
-        .register {
-            margin: 10px;
-            clear: left;
-            display: inline-block;
-            color: cornflowerblue;
-            text-decoration: none;
-        }
-
         .forgot:hover,
         .register:hover {
             color: darkgray;
@@ -178,8 +169,6 @@
 
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Enter your password.." autocomplete="off" required />
-
-        <a class="register" href="register.php">Doesn't have account? Register</a>
         <br />
 
         <input type="submit" name="submit" value="Log In" />
