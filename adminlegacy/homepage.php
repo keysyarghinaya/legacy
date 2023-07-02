@@ -220,8 +220,8 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center; mar
         <div class="carddd">
           <div class="card-body">
             <h5 class="card-title">DATA KATEGORI</h5>
-            <i class="bi bi-credit-card-fill" style="font-size: 40px;"></i><br><br>
-            <a href="data_kategori.php" class="btn btn-lg">Click</a>
+            <i class="bi bi-collection-fill" style="font-size: 40px;"></i><br><br>
+            <a href="kategori.php" class="btn btn-lg">Click</a>
           </div>
         </div>
       </div>
