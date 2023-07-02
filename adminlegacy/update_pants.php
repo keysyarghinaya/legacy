@@ -10,7 +10,7 @@ $harga = $_POST['harga'];
 
 
 // update data
-mysqli_query($koneksi, "update hoodie set   kode='$kode', nama='$nama', harga='$harga' where id='$id'");
+mysqli_query($koneksi, "update pants set   kode='$kode', nama='$nama', harga='$harga' where id='$id'");
 
 // mengalihkan halaman kembali ke halaman data kelas
 header("location:data_pants.php");

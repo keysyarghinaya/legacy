@@ -10,7 +10,7 @@ $nama = $_POST['nama'];
 $harga = $_POST['harga'];
 
 
-mysqli_query($koneksi, "insert into hat values('$id', '$kode','$nama','$harga')");
+mysqli_query($koneksi, "insert into pants values('$id', '$kode','$nama','$harga')");
 
 // mengalihkan halaman kembali ke halaman view Data piket
 header("location:data_pants.php");
