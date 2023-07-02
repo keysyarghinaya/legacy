@@ -12,6 +12,16 @@
             box-sizing: border-box;
         }
 
+        #clock {
+            font-size: 48px;
+            text-align: center;
+        }
+
+        #date {
+            font-size: 24px;
+            text-align: center;
+        }
+
         .row::after {
             content: "";
             clear: both;
@@ -86,6 +96,46 @@
 </head>
 
 <body>
+<div id="datetime-container">
+    <div id="clock"></div>
+    <div id="date"></div>
+
+    <script>
+        function updateTime() {
+            var clock = document.getElementById('clock');
+            var date = document.getElementById('date');
+            var datetimeContainer = document.getElementById('datetime-container');
+            var currentDate = new Date();
+
+            // Mengambil informasi waktu
+            var hours = currentDate.getHours();
+            var minutes = currentDate.getMinutes();
+            var seconds = currentDate.getSeconds();
+
+            // Menambahkan angka 0 di depan angka satu digit
+            hours = addZero(hours);
+            minutes = addZero(minutes);
+            seconds = addZero(seconds);
+
+            // Menampilkan waktu
+            clock.textContent = hours + ':' + minutes + ':' + seconds;
+
+            // Menampilkan tanggal
+            var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            var dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            var dateText = currentDate.toLocaleDateString('id-ID', dateOptions);
+            date.textContent = dateText;
+
+            // Memperbarui waktu setiap detik (1000ms)
+            setTimeout(updateTime, 1000);
+        }
+
+        function addZero(number) {
+            return number < 10 ? '0' + number : number;
+        }
+
+        updateTime();
+    </script>
     <div class="container">
         <div class="panel">
             <div class="panel-body">

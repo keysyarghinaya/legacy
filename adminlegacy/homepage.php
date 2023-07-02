@@ -145,10 +145,10 @@
       margin-bottom: 90px;
       width: 100%;
       height: 50px;
-      color: #8ebf42;
+      color: white;
       overflow: hidden;
       position: relative;
-      background-color: black;
+      background-color: #282E3E;
     }
 
     .marquee span {

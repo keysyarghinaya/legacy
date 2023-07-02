@@ -12,6 +12,16 @@
             box-sizing: border-box;
         }
 
+        #clock {
+            font-size: 48px;
+            text-align: center;
+        }
+
+        #date {
+            font-size: 24px;
+            text-align: center;
+        }
+
         .row::after {
             content: "";
             clear: both;
