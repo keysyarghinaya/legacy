@@ -106,7 +106,7 @@
 
                             <div class="form-group">
                                 <label>Nama produk</label>
-                                <input type="text" class="form-control" name="nama" placeholder="Masukkan nama_produk" value="<?php echo $d['nama']; ?>">
+                                <input type="text" class="form-control" name="nama_produk" placeholder="Masukkan nama_produk" value="<?php echo $d['nama']; ?>">
                             </div>
 
 
