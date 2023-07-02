@@ -802,7 +802,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk2.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -817,7 +817,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk3.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -832,7 +832,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk4.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -847,7 +847,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk5.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -862,7 +862,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk6.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -877,7 +877,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk7.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -892,7 +892,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk8.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -907,7 +907,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk9.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
         <div class="product-card">
@@ -922,7 +922,7 @@ background-size: cover; height:250px; padding-top: 90px; text-align: center;">
                     <span>&#9733;</span>
                     <span>&#9733;</span>
                 </div>
-                <a href="https://www.contohlink.com" button class="green-button">Lihat Produk</a>
+                <a href="diskripsi_item/produk10.php" button class="green-button">Lihat Produk</a>
             </div>
         </div>
 
