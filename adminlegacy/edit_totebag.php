@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EDIT DATA KATEGORI BAG</title>
+    <title>EDIT DATA KATEGORI TOTEBAG</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -79,7 +79,7 @@
 
             <div class="panel">
                 <div class="panel-heading">
-                    <h3>EDIT DATA BAG</h3>
+                    <h3>EDIT DATA TOTEBAG</h3>
                 </div>
                 <div class="panel-body">
 
@@ -97,12 +97,18 @@
 
                         <form method="post" action="update_totebag.php">
                             <div class="form-group">
-                                <label>Nama bag</label>
+                            <label>Kode</label>
                                 <!-- form id siswa yang diedit, untuk dikirim ke file akasi -->
                                 <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
 
-                                <input type="text" class="form-control" name="nama" placeholder="Masukkan nama bag" value="<?php echo $d['nama']; ?>">
+                                <input type="text" class="form-control" name="kode" placeholder="Masukkan kode" value="<?php echo $d['kode']; ?>">
                             </div>
+
+                            <div class="form-group">
+                                <label>Nama bag</label>
+                                <input type="text" class="form-control" name="nama" placeholder="Masukkan nama" value="<?php echo $d['nama']; ?>">
+                            </div>
+
 
                             <div class="form-group">
                                 <label>Harga</label>

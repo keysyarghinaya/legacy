@@ -169,6 +169,7 @@
                 <table class="table table-bordered table-striped">
                     <tr>
                         <th width="1%">No</th>
+                        <th>Kode</th>
                         <th>Nama Pants</th>
                         <th>Harga</th>
                         <th>Aksi</th>
@@ -186,6 +187,7 @@
                     ?>
                         <tr>
                             <td><?php echo $d['id'] ?></td>
+                            <td><?php echo $d['kode'] ?></td>
                             <td><?php echo $d['nama'] ?></td>
                             <td><?php echo $d['harga'] ?></td>
 

@@ -97,12 +97,18 @@
 
                         <form method="post" action="update_shirt.php">
                             <div class="form-group">
-                                <label>Nama Shirt</label>
+                                <<label>Kode</label>
                                 <!-- form id siswa yang diedit, untuk dikirim ke file akasi -->
                                 <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
 
-                                <input type="text" class="form-control" name="nama" placeholder="Masukkan nama shirt" value="<?php echo $d['nama']; ?>">
+                                <input type="text" class="form-control" name="kode" placeholder="Masukkan kode" value="<?php echo $d['kode']; ?>">
                             </div>
+
+                            <div class="form-group">
+                                <label>Nama shirt</label>
+                                <input type="text" class="form-control" name="nama" placeholder="Masukkan nama" value="<?php echo $d['nama']; ?>">
+                            </div>
+
 
                             <div class="form-group">
                                 <label>Harga</label>

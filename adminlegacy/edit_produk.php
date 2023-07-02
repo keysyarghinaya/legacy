@@ -97,12 +97,18 @@
 
                         <form method="post" action="update_produk.php">
                             <div class="form-group">
-                                <label>Nama Produk</label>
+                            <label>Kode</label>
                                 <!-- form id siswa yang diedit, untuk dikirim ke file akasi -->
                                 <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
 
-                                <input type="text" class="form-control" name="nama_produk" placeholder="Masukkan nama produk" value="<?php echo $d['nama_produk']; ?>">
+                                <input type="text" class="form-control" name="kode" placeholder="Masukkan kode" value="<?php echo $d['kode']; ?>">
                             </div>
+
+                            <div class="form-group">
+                                <label>Nama produk</label>
+                                <input type="text" class="form-control" name="nama" placeholder="Masukkan nama" value="<?php echo $d['nama']; ?>">
+                            </div>
+
 
                             <div class="form-group">
                                 <label>Harga Produk </label>

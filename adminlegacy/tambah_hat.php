@@ -83,6 +83,10 @@
                     <input type="hidden" class="form-control" name="id">
                 </div>
                 <div class="panel-body">
+                    <label>Kode</label>
+                    <input type="text" class="form-control" name="kode" placeholder="Masukkan kode">
+                </div>
+                <div class="panel-body">
                     <label>Nama hat</label>
                     <input type="text" class="form-control" name="nama" placeholder="Masukkan nama hat">
                 </div>

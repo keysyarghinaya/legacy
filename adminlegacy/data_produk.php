@@ -110,6 +110,7 @@
                 <table class="table table-bordered table-striped">
                     <tr>
                         <th width="1%">No</th>
+                        <th>Kode</th>
                         <th>Nama Produk</th>
                         <th>Harga Produk</th>
                         <th>Stok</th>
@@ -128,6 +129,7 @@
                     ?>
                         <tr>
                             <td><?php echo $d['id'] ?></td>
+                            <td><?php echo $d['kode'] ?></td>
                             <td><?php echo $d['nama_produk'] ?></td>
                             <td><?php echo $d['harga_produk'] ?></td>
                             <td><?php echo $d['stok_produk'] ?></td>
