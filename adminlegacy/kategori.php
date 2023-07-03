@@ -208,7 +208,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">DATA BAG</h5><br>
-                    <a href="data_bag.php" class="btn btn-lg">Click</a>
+                    <a href="data_totebag.php" class="btn btn-lg">Click</a>
                 </div>
             </div>
         </div>

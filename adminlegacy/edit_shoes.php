@@ -97,7 +97,7 @@
 
                         <form method="post" action="update_shoes.php">
                             <div class="form-group">
-                                <<label>Kode</label>
+                                <label>Kode</label>
                                 <!-- form id siswa yang diedit, untuk dikirim ke file akasi -->
                                 <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
 
