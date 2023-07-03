@@ -83,12 +83,24 @@
                     <input type="hidden" class="form-control" name="id">
                 </div>
                 <div class="panel-body">
+                    <label>Kode</label>
+                    <input type="text" class="form-control" name="kode" placeholder="Masukkan kode produk">
+                </div>
+                <div class="panel-body">
                     <label>Nama produk</label>
                     <input type="text" class="form-control" name="nama_barang" placeholder="Masukkan nama produk">
                 </div>
                 <div class="panel-body">
-                    <label>jumlah produk</label>
+                    <label>Harga produk</label>
+                    <input type="text" class="form-control" name="harga" placeholder="Masukkan harga produk">
+                </div>
+                <div class="panel-body">
+                    <label>Jumlah produk</label>
                     <input type="text" class="form-control" name="jumlah_barang" placeholder="Masukkan jumlah produk">
+                </div>
+                <div class="panel-body">
+                    <label>Total Harga</label>
+                    <input type="text" class="form-control" name="total" placeholder="Masukkan total harga">
                 </div>
                 <div class="panel-body">
                     <label>Waktu transaksi</label>

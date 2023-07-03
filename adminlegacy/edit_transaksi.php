@@ -97,16 +97,31 @@
 
                         <form method="post" action="update_transaksi.php">
                             <div class="form-group">
-                                <label>Nama Produk</label>
+                                <label>Kode</label>
                                 <!-- form id siswa yang diedit, untuk dikirim ke file akasi -->
                                 <input type="hidden" name="id" value="<?php echo $d['id']; ?>">
 
+                                <input type="text" class="form-control" name="kode" placeholder="Masukkan kode produk" value="<?php echo $d['kode']; ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Nama Produk </label>
                                 <input type="text" class="form-control" name="nama_barang" placeholder="Masukkan nama produk" value="<?php echo $d['nama_barang']; ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Harga Produk </label>
+                                <input type="text" class="form-control" name="harga" placeholder="Masukkan harga produk" value="<?php echo $d['harga']; ?>">
                             </div>
 
                             <div class="form-group">
                                 <label>Jumlah Produk </label>
                                 <input type="text" class="form-control" name="jumlah_barang" placeholder="Masukkan jumlah produk" value="<?php echo $d['jumlah_barang']; ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Total Harga </label>
+                                <input type="text" class="form-control" name="total" placeholder="Masukkan jumlah produk" value="<?php echo $d['total']; ?>">
                             </div>
 
                             <div class="form-group">

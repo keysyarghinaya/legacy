@@ -150,8 +150,11 @@
                 <table class="table table-bordered table-striped">
                     <tr>
                         <th width="1%">No</th>
+                        <th>Kode</th>
                         <th>Nama Produk</th>
+                        <th>Harga Produk</th>
                         <th>Jumlah Produk</th>
+                        <th>Total Harga</th>
                         <th>Waktu Transaksi</th>
                         <th>Aksi</th>
                     </tr>
@@ -168,8 +171,11 @@
                     ?>
                         <tr>
                             <td><?php echo $d['id'] ?></td>
+                            <td><?php echo $d['kode'] ?></td>
                             <td><?php echo $d['nama_barang'] ?></td>
+                            <td><?php echo $d['harga'] ?></td>
                             <td><?php echo $d['jumlah_barang'] ?></td>
+                            <td><?php echo $d['total'] ?></td>
                             <td><?php echo $d['waktu_transaksi'] ?></td>
 
                             <td>
